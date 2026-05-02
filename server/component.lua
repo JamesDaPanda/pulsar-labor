@@ -4,7 +4,7 @@ AddEventHandler('onResourceStart', function(resource)
     RegisterCallbacks()
     RegisterMiddleware()
     TriggerEvent("Labor:Server:Startup")
-    exports['pulsar-core']:VersionCheck('PulserFW/pulsar-labor')
+    exports['pulsar-core']:VersionCheck('PulsarFW/pulsar-labor')
   end
 end)
 
